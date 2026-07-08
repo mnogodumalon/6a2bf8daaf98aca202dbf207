@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "mitglieder",
+      "app_id": "6a2bf8bead7569152b1598a0",
+      "path": "/rest/apps/6a2bf8bead7569152b1598a0/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "email",
+        "telefon",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "ort",
+        "mitgliedsstatus",
+        "eintrittsdatum",
+        "austrittsdatum",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Mitglieder — Formular"
+    },
+    {
+      "entity": "veranstaltungen",
+      "app_id": "6a2bf8c46c1559e567d5783f",
+      "path": "/rest/apps/6a2bf8c46c1559e567d5783f/records",
+      "allowed_fields": [
+        "veranstaltungsname",
+        "veranstaltungstyp",
+        "datum_uhrzeit",
+        "veranstaltungsort",
+        "beschreibung",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Veranstaltungen — Formular"
+    },
+    {
+      "entity": "mitgliedsbeitraege",
+      "app_id": "6a2bf8c369cd76d671de312a",
+      "path": "/rest/apps/6a2bf8c369cd76d671de312a/records",
+      "allowed_fields": [
+        "zahlungsart",
+        "zahlungsstatus",
+        "notizen",
+        "beitragsjahr",
+        "betrag",
+        "zahlungsdatum"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Mitgliedsbeiträge — Formular"
+    }
+  ]
+}

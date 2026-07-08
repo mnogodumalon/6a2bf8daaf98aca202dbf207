@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Mitglieder": {
+      "placeholders_set": 11,
+      "defaults_keys": ["eintrittsdatum", "mitgliedsstatus"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten-Entity ohne Preise oder numerische Berechnungen. Zwei Datumsfelder (Eintritt/Austritt) sind sequenziell (keine Dauer-Berechnung sinnvoll). Keine applookup-Ziele, keine Multiplikationen."
+    },
+    "Veranstaltungen": {
+      "placeholders_set": 6,
+      "defaults_keys": ["datum_uhrzeit", "veranstaltungstyp"],
+      "computed_keys": [],
+      "reason": "Event-Management ohne Preise oder Kosten. Ein datetimeminute-Feld (kein Enddatum für Dauer). Keine Number-Felder, keine applookup-Multiplikationen, keine computed-Formeln sinnvoll."
+    },
+    "Mitgliedsbeiträge": {
+      "placeholders_set": 7,
+      "defaults_keys": ["zahlungsstatus", "zahlungsdatum"],
+      "computed_keys": [],
+      "reason": "Kostenverwaltung mit applookup (Mitglied) und zwei Number-Feldern (Beitragsjahr, Betrag). Betrag wird manuell vom Verwaltungsrat eingetragen (keine Multiplikation mit Stammdaten-Preisen, kein variabler Satz pro Mitgliedstyp in dieser Entity). Zahlungsstatus mit Ausstehend-Default. Keine computed-Formeln nötig."
+    }
+  }
+}

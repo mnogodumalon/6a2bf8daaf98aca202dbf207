@@ -1,0 +1,33 @@
+{
+  "MitgliederDialog.tsx": {
+    "vorname": "z. B. Anna",
+    "nachname": "z. B. Müller",
+    "email": "z. B. anna@example.com",
+    "telefon": "z. B. 0921-123456",
+    "strasse": "z. B. Hauptstraße",
+    "hausnummer": "z. B. 42",
+    "plz": "z. B. 95444",
+    "ort": "z. B. Bayreuth",
+    "mitgliedsstatus": "Status auswählen",
+    "eintrittsdatum": "Wann beigetreten?",
+    "austrittsdatum": "Austrittsdatum (falls relevant)",
+    "notizen": "Besonderheiten, Interessen, Kontakt-Notizen..."
+  },
+  "VeranstaltungenDialog.tsx": {
+    "veranstaltungsname": "z. B. AI-Stammtisch Juli",
+    "veranstaltungstyp": "Typ wählen",
+    "datum_uhrzeit": "Wann und Uhrzeit?",
+    "veranstaltungsort": "z. B. Café im Zentrum",
+    "beschreibung": "Thema, Gast, Agenda, Einlass...",
+    "notizen": "Besonderheiten, Vor-Ort-Infos..."
+  },
+  "MitgliedsbeitraegeDialog.tsx": {
+    "mitglied": "Welches Mitglied?",
+    "beitragsjahr": "z. B. 2026",
+    "betrag": "z. B. 50,00",
+    "zahlungsdatum": "Wann bezahlt?",
+    "zahlungsart": "z. B. Überweisung",
+    "zahlungsstatus": "Status auswählen",
+    "notizen": "Referenznummer, Besonderheiten..."
+  }
+}

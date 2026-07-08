@@ -1,0 +1,4 @@
+- Mitglieder (mitglieder): vorname[string/text], nachname[string/text], email[string/email], telefon[string/tel], strasse[string/text], hausnummer[string/text], plz[string/text], ort[string/text], mitgliedsstatus[lookup/radio], eintrittsdatum[date/date], austrittsdatum[date/date], notizen[string/textarea]
+- Veranstaltungen (veranstaltungen): veranstaltungsname[string/text], veranstaltungstyp[lookup/radio], datum_uhrzeit[date/datetimeminute], veranstaltungsort[string/text], beschreibung[string/textarea], notizen[string/textarea]
+- Mitgliedsbeiträge (mitgliedsbeitraege): zahlungsart[lookup/select], zahlungsstatus[lookup/radio], notizen[string/textarea], mitglied[applookup/select], beitragsjahr[number], betrag[number], zahlungsdatum[date/date]
+  → mitglied links to app_id 6a2bf8bead7569152b1598a0
